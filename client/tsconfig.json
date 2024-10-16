@@ -1,0 +1,15 @@
+
+
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true // Detta kan hjälpa till att ignorera typfel i externa bibliotek
+    // ... andra inställningar
+  }
+}
